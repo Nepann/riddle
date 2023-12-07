@@ -1,0 +1,127 @@
+body {
+    background-color: #FFC973;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    background-color: #FFA900;
+    padding: 50px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+
+}
+
+.title {
+    color: #A66E00;
+}
+
+.navigation {
+    display: flex;
+    position: relative;
+    top: 15px;
+    color: #A66E00;
+}
+
+.nav-1 {
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    bottom: 10px;
+    transition: background-color 0.2s linear;
+    color: #A66E00;
+}
+
+.nav-1:hover {
+    background-color: #FFD98D;
+}
+
+.nav-2 {
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    bottom: 10px;
+    transition: background-color 0.2s linear;
+    color: #A66E00;
+}
+
+.nav-2:hover {
+    background-color: #FFD98D;
+}
+
+.nav-3 {
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    bottom: 10px;
+    transition: background-color 0.2s linear;
+    color: #A66E00;
+}
+
+.nav-3:hover {
+    background-color: #FFD98D;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.main-text {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.img1 {
+    border-radius: 10px;
+    opacity: 0.9;
+    transition: opacity 0.2s linear;
+}
+
+.img2 {
+    border-radius: 10px;
+    opacity: 0.9;
+    transition: opacity 0.2s linear;
+
+}
+
+.img3 {
+    border-radius: 10px;
+    opacity: 0.9;
+    transition: opacity 0.2s linear;
+
+}
+
+.img1:hover {
+    opacity: 1;
+}
+
+.img2:hover {
+    opacity: 1;
+}
+
+.img3:hover {
+    opacity: 1;
+}
+
+.text-1 {
+    transform: rotate(180deg);
+    text-align: right;
+    margin-bottom: 50px;
+}
+
+
+/* Ты кто такой и зачем полез в css?  :3 */
